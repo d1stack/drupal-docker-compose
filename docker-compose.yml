@@ -1,0 +1,28 @@
+services:
+  drupal:
+    build: .
+    ports:
+      - 8080:80
+    volumes:
+      - ./drupal-sites/default/files:/var/www/html/sites/default/files
+      - ./drupal-modules:/var/www/html/modules/custom
+      - ./drupal-themes:/var/www/html/themes/custom
+      - ./drupal-profiles:/var/www/html/profiles/custom
+      - ./drupal-config:/var/www/config/sync
+    env_file:
+      - .env
+      - .env.local
+  database:
+    image: mysql:8.0.40
+    environment:
+      MYSQL_ROOT_PASSWORD: drupal
+      MYSQL_DATABASE: drupal
+      MYSQL_USER: drupal
+      MYSQL_PASSWORD: drupal
+    volumes:
+      - database-data:/var/lib/mysql
+    ports:
+      - 30366:3306
+
+volumes:
+  database-data:

@@ -1,0 +1,5 @@
+drupal-config/.htaccess
+drupal-sites/default/files/*
+!drupal-sites/default/files/.gitkeep
+.env.local
+
