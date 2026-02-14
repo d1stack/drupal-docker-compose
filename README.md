@@ -13,19 +13,23 @@
 A minimal, developer-friendly **Drupal + MySQL** Docker Compose setup
 based on the official Drupal Docker image.
 
-Perfect for: - 🧑‍💻 Local development - 🧪 Testing modules/themes - 🧱
-Custom Drupal builds - ⚡ Quick project bootstrap
+Perfect for: 
+
+- 🧑‍💻 Local development
+- 🧪 Testing modules/themes
+- 🧱 Custom Drupal builds
+- ⚡ Quick project bootstrap
 
 ------------------------------------------------------------------------
 
 ## 📦 Stack Overview
 
-  Service         Technology
-  --------------- ---------------------------
-  CMS             Drupal (official image)
-  Database        MySQL 8
-  Web             Apache (via Drupal image)
-  Orchestration   Docker Compose
+  | Service        | Technology                 |
+  | -------------- | ---------------------------|
+  | CMS            | Drupal (official image)    |
+  | Database       | MySQL 8                    |
+  | Web            | Apache (via Drupal image)  |
+  | Orchestration  | Docker Compose             |
 
 ------------------------------------------------------------------------
 
