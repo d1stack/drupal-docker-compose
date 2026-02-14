@@ -12,5 +12,4 @@ COPY --from=composer:lts /usr/bin/composer /usr/bin/composer
 ENV PATH="$PATH:/opt/drupal/vendor/bin"
 
 RUN composer install && \
-    composer require 'drupal/bootstrap5:^4.0' && \
     composer require --dev drush/drush

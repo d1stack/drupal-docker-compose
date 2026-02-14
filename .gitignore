@@ -1,4 +1,12 @@
 drupal-config/.htaccess
+!drupal-config/.gitkeep
+
+drupal-modules/.htaccess
+!drupal-modules/.gitkeep
+
+drupal-profiles/.htaccess
+!drupal-profiles/.gitkeep
+
 drupal-sites/default/files/*
 !drupal-sites/default/files/.gitkeep
 .env.local
