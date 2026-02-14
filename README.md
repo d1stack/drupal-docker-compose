@@ -1,22 +1,10 @@
 # 🐳 Drupal Compose
 
-```{=html}
-<p align="center">
-```
-`<img src="https://www.drupal.org/files/Wordmark_blue_RGB.png" width="220" alt="Drupal Logo"/>`{=html}
-```{=html}
-</p>
-```
-```{=html}
-<p align="center">
-```
-`<img src="https://img.shields.io/badge/Drupal-10.x-blue?logo=drupal" alt="Drupal">`{=html}
-`<img src="https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white" alt="Docker Compose">`{=html}
-`<img src="https://img.shields.io/badge/MySQL-8.0-4479A1?logo=mysql&logoColor=white" alt="MySQL">`{=html}
-`<img src="https://img.shields.io/badge/PHP-8.x-777BB4?logo=php&logoColor=white" alt="PHP">`{=html}
-```{=html}
-</p>
-```
+![Drupal](https://img.shields.io/badge/Drupal-10.x-blue?logo=drupal)
+![Docker Compose](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?logo=mysql&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?logo=php&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 ------------------------------------------------------------------------
 
