@@ -1,6 +1,6 @@
 # 🐳 Drupal Compose
 
-![Drupal](https://img.shields.io/badge/Drupal-10.x-blue?logo=drupal)
+![Drupal](https://img.shields.io/badge/Drupal-11.x-blue?logo=drupal)
 ![Docker Compose](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?logo=mysql&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?logo=php&logoColor=white)
