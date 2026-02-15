@@ -20,6 +20,10 @@ Perfect for:
 - 🧱 Custom Drupal builds
 - ⚡ Quick project bootstrap
 
+The repo contains pre-built settings.php file with the default 
+database connection ENV variables. 
+See the docker-compose.yml and .env file for details
+
 ------------------------------------------------------------------------
 
 ## 📦 Stack Overview
@@ -53,15 +57,16 @@ Perfect for:
 ## ⚙️ Installation
 
 ``` bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/d1stack/drupal-docker-compose.git
+cd drupal-docker-compose
 docker compose build
 docker compose up -d
 ```
 
 Open: http://localhost:8080
+Finish setup in the browser
 
-Database: Host: database DB: drupal User: drupal Pass: drupal Port: 3306
+Or run the `install.sh` script to finish setup in the command line
 
 ------------------------------------------------------------------------
 
